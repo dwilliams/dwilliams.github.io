@@ -497,10 +497,12 @@ GITHUB_DEPLOY_BRANCH = 'master'
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-# GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "galleries"}
 # More gallery options:
 # THUMBNAIL_SIZE = 180
+THUMBNAIL_SIZE = 200
 # MAX_IMAGE_SIZE = 1280
+MAX_IMAGE_SIZE = 2048
 # USE_FILENAME_AS_TITLE = True
 # EXTRA_IMAGE_EXTENSIONS = []
 #
@@ -515,6 +517,7 @@ GITHUB_DEPLOY_BRANCH = 'master'
 
 IMAGE_FOLDERS = {'images': 'images'}
 # IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_THUMBNAIL_SIZE = 200
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
