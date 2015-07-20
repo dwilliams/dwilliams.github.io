@@ -1,0 +1,2 @@
+ghp-import==0.4.1
+Nikola==7.6.1
