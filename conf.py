@@ -124,6 +124,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
+        ("/galleries/", "Galleries"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
@@ -500,7 +501,7 @@ GITHUB_DEPLOY_BRANCH = 'master'
 GALLERY_FOLDERS = {"galleries": "galleries"}
 # More gallery options:
 # THUMBNAIL_SIZE = 180
-THUMBNAIL_SIZE = 200
+THUMBNAIL_SIZE = 240
 # MAX_IMAGE_SIZE = 1280
 MAX_IMAGE_SIZE = 2048
 # USE_FILENAME_AS_TITLE = True
@@ -517,7 +518,7 @@ MAX_IMAGE_SIZE = 2048
 
 IMAGE_FOLDERS = {'images': 'images'}
 # IMAGE_THUMBNAIL_SIZE = 400
-IMAGE_THUMBNAIL_SIZE = 200
+IMAGE_THUMBNAIL_SIZE = 240
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
