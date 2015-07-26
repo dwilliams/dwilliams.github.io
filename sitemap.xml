@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>http://www.port8080.net/archive.html</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2015-07-25</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/</loc>
@@ -55,7 +55,11 @@
  </url>
  <url>
   <loc>http://www.port8080.net/galleries/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2015-07-25</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/galleries/SparcServer5/</loc>
+  <lastmod>2015-07-25</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/listings/</loc>
@@ -63,7 +67,7 @@
  </url>
  <url>
   <loc>http://www.port8080.net/listings/README.md.html</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2015-07-25</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/posts/curses-interface-for-home-automation/</loc>
