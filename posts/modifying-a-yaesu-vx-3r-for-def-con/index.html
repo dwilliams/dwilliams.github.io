@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Modifying a Yaesu VX-3R radio for use with the DEF CON repeater.">
+<meta name="viewport" content="width=device-width">
+<title>Modifying a Yaesu VX-3R for DEF CON | port8080.net</title>
+<link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="http://www.port8080.net/posts/modifying-a-yaesu-vx-3r-for-def-con/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]-->
+</head>
+<body class="home blog">
+    <div id="wrap">
+        <div id="container">
+            
+            
+    <div class="post">
+    
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Modifying a Yaesu VX-3R for DEF CON</a></h1>
+
+        <div class="meta" style="background-color: rgb(234, 234, 234); ">
+        <span class="authordate">
+            Posted: <time class="published" datetime="2015-08-05T13:51:09-06:00">2015-08-05 13:51</time>
+               [<a href="index.rst" id="sourcelink">Source</a>]
+        </span>
+        <br><span class="tags">Tags: 
+                    <a class="tag" href="../../categories/def-con/"><span>DEF CON</span></a>
+                    <a class="tag" href="../../categories/radio/"><span>radio</span></a>
+                    <a class="tag" href="../../categories/yaesu/"><span>Yaesu</span></a>
+                </span>
+                <br><span class="authordate">
+            
+
+        </span>
+        </div>
+    <div>
+<p>I'm sitting here in Las Vegas waiting for a friend to finish his booth duty at BlackHat.  A number of groups here at
+DEF CON have radio repeaters setup in the 70 cm and the General Mobile Radio Service (GMRS) / Family Radio Service
+(FRS) bands.  While I have little to do, I figured I'd turn my Yaesu VX-3R into an "experimental" radio and unlock the
+ability to transmit in the GMRS / FRS bands.</p>
+<!-- TEASER_END -->
+<div class="line-block">
+<div class="line"><br></div>
+</div>
+<!-- - - Talk a bit about the potential legality and explain that I'm staying within the power limits of the bands.  Also -->
+<!-- - -   mention that the FCC has provisions for experimental and homebrew equipments (which includes one-off -->
+<!-- - -   modifications to production models) -->
+<p>While reading up on this modification, a number of bots online raised concerns about the legality of operating the
+radio with this modification in place.  This is a VERY grey area as there are a number of regulations that may cover
+this modification, along with "the spirit of amateur radio", which conflict either partially or completely.  A number
+of them are as follows:</p>
+<ol class="arabic simple">
+<li>The power that may be transmitted in the band.</li>
+<li>FRS ( and I believe GMRS), which is the band this modification is making available, requires that the antenna be
+fixed ( i.e. not removable).</li>
+<li>Personal radio equipment is permitted to be built and/or modified as long as the devices don't cause harmful
+interference.</li>
+<li>Learn by building and experimentation.</li>
+</ol>
+<p>This issue can conflict, especially depending on the mood of the person interpreting, and thus must be complied with
+in a "best possible" way.  I'm keeping my power down to prevent interference, but I'm going to modify my radio.</p>
+<div class="line-block">
+<div class="line"><br></div>
+</div>
+<!-- - - Show and explain the pictures of the modifications. -->
+<p>This is a very simple modification that was made even simpler by failing to use what I thought would be the correct
+tools.  These photos are of my making the modification in a hotel room in Las Vegas before DEF CON.  The most
+complicated part of the process is removing the little resistor buried deep in the radio after removing the protective
+sticker.</p>
+<p>I started off trying to remove the little resistor down in there with a soldering iron.  I have a good iron with a tip
+that works quite well for me.  The iron method ended up failing because the resistor was buried so deep in the case.  I then tried to open the case to no avail.  At this point, I decided to try something a bit more "invasive".  I poked the resistor with the pointed tip of my pocket knife and the body of the resistor broke.  I proceeded to pick the rest of the resistor away with the tip of the knife for a few minutes, and voila, the resistor has been cleanly removed.  Put the battery back in and the radio has reset itself.  All is well.</p>
+<a class="reference external image-reference" href="../../galleries/YaesuVX3R/20150805_01_Workspace.jpg"><img alt="../../galleries/YaesuVX3R/20150805_01_Workspace.thumbnail.jpg" src="../../galleries/YaesuVX3R/20150805_01_Workspace.thumbnail.jpg"></a>
+<a class="reference external image-reference" href="../../galleries/YaesuVX3R/20150805_02_YaesuVX3R.jpg"><img alt="../../galleries/YaesuVX3R/20150805_02_YaesuVX3R.thumbnail.jpg" src="../../galleries/YaesuVX3R/20150805_02_YaesuVX3R.thumbnail.jpg"></a>
+<a class="reference external image-reference" href="../../galleries/YaesuVX3R/20150805_03_AccessCoverM.jpg"><img alt="../../galleries/YaesuVX3R/20150805_03_AccessCoverM.thumbnail.jpg" src="../../galleries/YaesuVX3R/20150805_03_AccessCoverM.thumbnail.jpg"></a>
+<a class="reference external image-reference" href="../../galleries/YaesuVX3R/20150805_04_AccessCoverRemovedM.jpg"><img alt="../../galleries/YaesuVX3R/20150805_04_AccessCoverRemovedM.thumbnail.jpg" src="../../galleries/YaesuVX3R/20150805_04_AccessCoverRemovedM.thumbnail.jpg"></a>
+<div class="line-block">
+<div class="line"><br></div>
+</div>
+<!-- - - Get a new picture of transmitting on FRS in low power mode. -->
+<p>And here's the final picture with a quick squirt on an FRS Channel at about 0.1 W just to make sure the radio no
+longer displays error when attempting to transmit.</p>
+<a class="reference external image-reference" href="../../galleries/YaesuVX3R/20150805_05_NoTXError.jpg"><img alt="../../galleries/YaesuVX3R/20150805_05_NoTXError.thumbnail.jpg" src="../../galleries/YaesuVX3R/20150805_05_NoTXError.thumbnail.jpg"></a>
+</div>
+    
+        <ul class="pager hidden-print">
+<li class="previous">
+                <a href="../sparcserver5-and-wyse30/" rel="prev" title="SparcServer5 and Wyse30">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../just-made-general/" rel="next" title="Just made General">Next post</a>
+            </li>
+        </ul>
+</div>
+
+        </div>
+        <div id="sidebar">
+            <!--Sidebar content-->
+            <h1 id="blog-title">
+                <a href="http://www.port8080.net/" title="port8080.net">port8080.net</a>
+            </h1>
+            
+            
+            <ul class="unstyled">
+<li>
+            
+                <li>
+<a href="../../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../../galleries/">Galleries</a>
+                </li>
+<li>
+<a href="../../categories/">Tags</a>
+                </li>
+<li>
+<a href="../../rss.xml">RSS feed</a>
+
+            </li>
+<li>
+            
+            
+            </ul>
+</div>
+        <div id="footer">
+            Contents © 2015         <a href="mailto:dwilliams@port8080.net">fbus</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </div>
+    </div>
+    
+            <script src="../../assets/js/jquery.min.js"></script><script src="../../assets/js/bootstrap.min.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><script src="../../assets/js/fancydates.js"></script><script src="../../assets/js/jquery.colorbox-min.js"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+</body>
+</html>
