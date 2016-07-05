@@ -30,4 +30,8 @@ Now that the entire bank is connected up, we've had a run of overcast days, whic
 .. thumbnail:: ../../galleries/BatteryBankOne/IMG_20160626_225931.jpg
 .. thumbnail:: ../../galleries/BatteryBankOne/IMG_20160626_230218.jpg
 
-.. -- NOTE: Add a picture of the complete bank here.
+|
+
+Here's a picture of the complete bank sitting on my kitchen floor:
+
+.. thumbnail:: ../../galleries/BatteryBankOne/IMG_20160701_183254.jpg
