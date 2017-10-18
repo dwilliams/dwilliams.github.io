@@ -9,3 +9,5 @@
 
 Just wanted to say that I took the technician and general license tests and have passed.  I'll update this post in a
 couple of weeks once I get my call sign.
+
+Update: My callsign is "KE0FNS".

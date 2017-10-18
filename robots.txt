@@ -1,2 +1,4 @@
 Sitemap: http://www.port8080.net/sitemapindex.xml
 
+User-Agent: *
+Host: www.port8080.net

@@ -7,106 +7,154 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.port8080.net/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/2015/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/2016/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/archive.html</loc>
-  <lastmod>2015-07-25</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/categories/battery/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/cat_anachronistic-computing/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/cat_ham-radio/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/cat_home-automation/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/categories/cat_solar-panel-fun/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/def-con/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/ha-sts/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/openbsd/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/python/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/radio/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/categories/sla/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/categories/solar/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/sparc/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/sun/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/wyse/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/categories/yaesu/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/galleries/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/galleries/BatteryBankOne/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/galleries/DMKUSBRadioInterface/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/galleries/GardenLightingSystem/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/galleries/MasonJarLamp/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/galleries/RBL4NavyRadio/</loc>
+  <lastmod>2017-10-18T03:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/galleries/SparcServer5/</loc>
-  <lastmod>2015-07-25</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/galleries/Yaesu2900R/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/galleries/YaesuVX3R/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/listings/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/listings/README.md.html</loc>
-  <lastmod>2015-07-25</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.port8080.net/posts/battery-bank-one/</loc>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/posts/curses-interface-for-home-automation/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/posts/just-made-general/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/posts/modifying-a-yaesu-vx-3r-for-def-con/</loc>
-  <lastmod>2015-08-09</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/posts/sparcserver5-and-wyse30/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.port8080.net/projects/</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2017-10-18T03:02:00Z</lastmod>
  </url>
 </urlset>
