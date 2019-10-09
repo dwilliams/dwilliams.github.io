@@ -102,3 +102,6 @@ target/
 output/
 cache/
 .doit.db
+*.bak
+*.dat
+*.dir
