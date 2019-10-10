@@ -15,6 +15,23 @@ repositories are https://github.com/dwilliams/ole-radio-input-switch and https:/
 
 .. -- Talk a bit about the ole radio switch
 
+The first repo (https://github.com/dwilliams/ole-radio-input-switch) contains a project to provide an input for the old
+radios that I'm restoring.  I would like to be able to use these radios for audio books or soft music around the house.
+I'm not a fan of the butchering that happens to these radios when people replace the old tube guts with an iPood or
+raspberry pi media player and cheap chinese amplifier.  I've designed a couple of small boards that can be inserted into
+an old radio between the detector section and the amplifier or output section (which is usually where a volume control
+exists) that will allow a line input or bluetooth module to be switched in.  This adds an input while keeping the
+original radio circuitry intact and functional.
+
+Here's some pictures of these boards:
+
+.. thumbnail:: ../../galleries/OleRadioSwitch/amp-and-switch-brd.png
+.. thumbnail:: ../../galleries/OleRadioSwitch/amp-and-switch.png
+.. thumbnail:: ../../galleries/OleRadioSwitch/power-board-12v-brd.png
+.. thumbnail:: ../../galleries/OleRadioSwitch/power-board-12v.png
+
+|
+
 .. -- Talk a bit about the pcb things
 
 The second repo (https://github.com/dwilliams/pcb-things) contains random printed circuit board designs that don't fit
@@ -26,7 +43,7 @@ difference made it worth using PCBs instead of aluminium for these panels, which
 
 Here's some pictures of these boards:
 
-.. thumnail:: ../../galleries/PCBThings/octal-base-plinth-brd.svg
-.. thumnail:: ../../galleries/PCBThings/octal-base-plinth.png
-.. thumnail:: ../../galleries/PCBThings/noval-base-plinth-brd.svg
-.. thumnail:: ../../galleries/PCBThings/noval-base-plinth.png
+.. thumbnail:: ../../galleries/PCBThings/octal-base-plinth-brd.png
+.. thumbnail:: ../../galleries/PCBThings/octal-base-plinth.png
+.. thumbnail:: ../../galleries/PCBThings/noval-base-plinth-brd.png
+.. thumbnail:: ../../galleries/PCBThings/noval-base-plinth.png
