@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>PCBThings | port8080.net</title>
+<link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="http://www.port8080.net/galleries/PCBThings/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<style type="text/css">
+    .image-block {
+        display: inline-block;
+    }
+    .flowr_row {
+        width: 100%;
+    }
+    </style>
+</head>
+<body class="home blog">
+    <div id="wrap">
+        <div id="container">
+            
+            
+    
+<nav class="breadcrumbs"><ul class="breadcrumb">
+<li><a href="../">galleries</a></li>
+                <li>PCBThings</li>
+</ul></nav><h1>PCBThings</h1>
+
+<div id="gallery_container"></div>
+<noscript>
+<ul class="thumbnails">
+<li>
+<a href="noval-base-plinth.png" class="thumbnail image-reference" title="Noval base plinth">
+            <img src="noval-base-plinth.thumbnail.png" alt="Noval base plinth"></a>
+        </li>
+<li>
+<a href="octal-base-plinth.png" class="thumbnail image-reference" title="Octal base plinth">
+            <img src="octal-base-plinth.thumbnail.png" alt="Octal base plinth"></a>
+        </li>
+<li>
+<a href="noval-base-plinth-brd.png" class="thumbnail image-reference" title="Noval base plinth brd">
+            <img src="noval-base-plinth-brd.thumbnail.png" alt="Noval base plinth brd"></a>
+        </li>
+<li>
+<a href="octal-base-plinth-brd.png" class="thumbnail image-reference" title="Octal base plinth brd">
+            <img src="octal-base-plinth-brd.thumbnail.png" alt="Octal base plinth brd"></a>
+</li>
+</ul>
+</noscript>
+
+        </div>
+        <div id="sidebar">
+            <!--Sidebar content-->
+            <h1 id="blog-title">
+                <a href="http://www.port8080.net/" title="port8080.net">port8080.net</a>
+            </h1>
+            
+            
+            <ul class="unstyled">
+<li>
+            
+                <li>
+<a href="../../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../">Galleries</a>
+                </li>
+<li>
+<a href="../../categories/">Tags</a>
+                </li>
+<li>
+<a href="../../rss.xml">RSS feed</a>
+
+            </li>
+<li>
+            
+            
+            </ul>
+</div>
+        <div id="footer">
+            Contents © 2019         <a href="mailto:dwilliams@port8080.net">fbus</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </div>
+    </div>
+    
+            <script src="../../assets/js/jquery.min.js"></script><script src="../../assets/js/bootstrap.min.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><script src="../../assets/js/fancydates.js"></script><script src="../../assets/js/jquery.colorbox-min.js"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><script src="../../assets/js/flowr.plugin.js"></script><script>
+jsonContent = [{"size": {"h": 144, "w": 240}, "title": "Noval base plinth", "url": "noval-base-plinth.png", "url_thumb": "noval-base-plinth.thumbnail.png"}, {"size": {"h": 144, "w": 240}, "title": "Octal base plinth", "url": "octal-base-plinth.png", "url_thumb": "octal-base-plinth.thumbnail.png"}, {"size": {"h": 240, "w": 240}, "title": "Noval base plinth brd", "url": "noval-base-plinth-brd.png", "url_thumb": "noval-base-plinth-brd.thumbnail.png"}, {"size": {"h": 240, "w": 240}, "title": "Octal base plinth brd", "url": "octal-base-plinth-brd.png", "url_thumb": "octal-base-plinth-brd.thumbnail.png"}];
+$("#gallery_container").flowr({
+        data : jsonContent,
+        height : 240*.6,
+        padding: 5,
+        rows: -1,
+        render : function(params) {
+            // Just return a div, string or a dom object, anything works fine
+            img = $("<img />").attr({
+                'src': params.itemData.url_thumb,
+                'width' : params.width,
+                'height' : params.height
+            }).css('max-width', '100%');
+            link = $( "<a></a>").attr({
+                'href': params.itemData.url,
+                'class': 'image-reference'
+            });
+            div = $("<div />").addClass('image-block').attr({
+                'title': params.itemData.title,
+                'data-toggle': "tooltip",
+            });
+            link.append(img);
+            div.append(link);
+            div.hover(div.tooltip());
+            return div;
+        },
+        itemWidth : function(data) { return data.size.w; },
+        itemHeight : function(data) { return data.size.h; },
+        complete : function(params) {
+            if( jsonContent.length > params.renderedItems ) {
+                nextRenderList = jsonContent.slice( params.renderedItems );
+            }
+        }
+    });
+$("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
+</script>
+</body>
+</html>

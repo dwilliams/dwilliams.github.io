@@ -22,6 +22,10 @@
   <lastmod>2017-10-18T03:02:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://www.port8080.net/categories/cat_radio-fun.xml</loc>
+  <lastmod>2019-10-09T20:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://www.port8080.net/categories/cat_solar-panel-fun.xml</loc>
   <lastmod>2017-10-18T03:02:00Z</lastmod>
  </sitemap>
@@ -38,12 +42,16 @@
   <lastmod>2017-10-18T03:02:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://www.port8080.net/categories/pcb.xml</loc>
+  <lastmod>2019-10-09T20:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://www.port8080.net/categories/python.xml</loc>
   <lastmod>2017-10-18T03:02:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/categories/radio.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T20:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/categories/sla.xml</loc>
@@ -62,6 +70,10 @@
   <lastmod>2017-10-18T03:02:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://www.port8080.net/categories/timing.xml</loc>
+  <lastmod>2019-10-09T20:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://www.port8080.net/categories/wyse.xml</loc>
   <lastmod>2017-10-18T03:02:00Z</lastmod>
  </sitemap>
@@ -71,46 +83,54 @@
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/BatteryBankOne/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/DMKUSBRadioInterface/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/GardenLightingSystem/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/MasonJarLamp/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.port8080.net/galleries/OleRadioSwitch/rss.xml</loc>
+  <lastmod>2019-10-09T20:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.port8080.net/galleries/PCBThings/rss.xml</loc>
+  <lastmod>2019-10-09T20:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/RBL4NavyRadio/rss.xml</loc>
-  <lastmod>2017-10-18T03:05:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/SparcServer5/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/Yaesu2900R/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/YaesuVX3R/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/galleries/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T19:51:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/rss.xml</loc>
-  <lastmod>2017-10-18T03:02:00Z</lastmod>
+  <lastmod>2019-10-09T20:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.port8080.net/sitemap.xml</loc>
-  <lastmod>2017-10-18T03:05:00Z</lastmod>
+  <lastmod>2019-10-09T20:10:00Z</lastmod>
  </sitemap>
 </sitemapindex>
