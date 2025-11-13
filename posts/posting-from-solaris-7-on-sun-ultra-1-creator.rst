@@ -30,12 +30,13 @@ I'll probably give Solaris 8 and Solaris 9 a try in the near future.  I haven't 
 or one of the older 32-bit SPARCstations to be my daily driver.  I'd really like it to be the Sun 3/50, but a 68k
 processor and black and white graphics would make that machine a challenge to daily.
 
-.. Talk about getting the machines out of storage, cleaning, ordering RAM on flebay.
+.. Talk about getting the machines out of storage, cleaning, ordering RAM on fleBay.
 
 I have two of these Ultra 1 Creator machines.  Until about three months ago, they were sitting in storage for almost 10
 years.  They've been bouncing from home to home to storage with me as a couple of the last survivors from a huge pile of
 Sun machines I used to have.  Most of the machines were lost in a sad mistake of donating them to a local hackerspace,
-which then decided to trash them about a year later with out even asking if I wanted them back.
+which then decided to trash them about a year later without even asking if I wanted them back.  It's a huge problem with
+donating these days, so be wary.
 
 Now that these machines are out of storage, I wanted to get one nice enough to use as a daily driver for writing.  It's
 too underpowered for surfing the internet in these modern days.  The biggest issue being the amount of CPU required to
@@ -50,7 +51,7 @@ so I guess that will continue to be the machine's name.  A little magic eraser o
 I'm not going to retro-brite the case as it's not yellowed much and will be in a stack of machines.
 
 I wanted to max out the capabilities of my daily driver machine.  There's not much expasion available for the Ultra 1
-series.  It's pretty much more RAM, better graphics card, and bigger hard disk.  I went onto the flebay website looking
+series.  It's pretty much more RAM, better graphics card, and bigger hard disk.  I went onto the fleBay website looking
 for RAM and the Creator3D framebuffer.  The framebuffers are now stupid expensive, but I found a bunch of RAM, some new
 in box, for a pretty reasonable price.  I now have enough (bought a couple of lots) to upgrade something like six
 Ultra 1 machines to their max of 1024 MB.  This one is now maxed on RAM.
@@ -67,7 +68,7 @@ replacements, but they usually have issues due to timing or issues with the RTC 
 of the original chips using 2 digit years (e.g. 25).  After reading website like Glitchworks (LINK HERE), it appears the
 best solution is to dremel into the chip hat, cut one of the wires to the old cell, and solder a new cell holder to the
 chip.  Glitchworks made a nice little replacement hat, but they're not available anymore.  I just purchased some cheap
-cell holders from the spamazon jungle and soldered them on.  I just taped the cell holder next to NVRAM chip once
+cell holders from the spAmazon jungle and soldered them on.  I just taped the cell holder next to NVRAM chip once
 installed in the machine.
 
 The NVRAM will need to have the core settings reloaded, otherwise the ethernet MAC address and host ID will both be
@@ -112,7 +113,10 @@ connector, not the 80-pin SCA connector that the Ultra 1 drive bay uses.  Rabbit
 80-pin SCA to 50-pin connector, so the current plan is to use the adapter with the ZuluSCSI Blaster for now.  Since I'm
 using NFS shares and I'm keeping the diagnostics mode on startup, performance shouldn't be an issue for me.
 
-.. PUT PICTURES OF THE HDD AND OF THE ZULUSCSI AND ADAPTER
+NOTE: During the way too long writing of this post, Rabbit Hole Computing release a version of the ZuluSCSI-Wide with an
+80-pin SCA connector directly on the board.  I've switched to that unit, but all of the other info is the same.
+
+.. PUT PICTURES OF THE HDD AND OF THE ZULUSCSI AND ADAPTER, AND THEN THE ZULUSCSI-WIDE
 
 .. Talk about installing Java newer than 1.1.7 and jEdit
 
@@ -120,10 +124,19 @@ As I've mentioned before, I'm running Solaris 7 on this Ultra 1.  I'm primarily 
 restructured text and markdown files for this blogging system and LaTeX files for bigger projects, all that's really
 needed is a good syntax-highlighting text editor.  I've been using one off and on for years that runs in Java and
 doesn't take much in the way of resources: jEdit (LINK HERE).  I figured that it would be perfect for a Sun workstation
-as Sun created Java in the first place.  Getting it to run, however, was a bit of a saga.  JAVA INSTALLS
+as Sun created Java in the first place.  Getting it to run, however, was a bit of a saga.  Also, while installing
+Solaris 7 on the harddrive went smoothly, installing Solaris 7 on the ZuluSCSI-Wide did not.
+
+This is getting a bit long, so I'll chronicle the installation of Solaris 7, Java 1.3, and jEdit in the next post.  I'll
+then go through setting up Tribblix (LINK HERE), the NFS server, rlogin / rsh, and mounting the NFS share on Solaris 7.
+It works, and I'm finishing this article on it now.
 
 .. Link some docs here such as the service manual, NVRAM docs, Solaris 7 docs, etc.  Make sure there are "offline" saved
 versions too, even if they're not linked here.
+
+Below are some of the docs used for this effort (original link and a backup copy):
+
+ * Sun Microsystems Ultra 1 Service Manual: LINK and LINK
 
 .. Make sure to get some pictures of the system, both open and in-situ.
 
