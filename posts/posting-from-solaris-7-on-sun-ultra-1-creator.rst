@@ -108,7 +108,11 @@ Below are the NVRAM reprogramming commands to make the NVRAM usable::
     <host_2> e mkp
     0 f 0 do i idprom@ xor loop f mkp
 
-The <type> value sets the type code of the machine.  There's a list of these values available (LINK and copy here).  The
+The <type> value sets the type code of the machine.  There's a list of these values available at 
+`http://obsolyte.com/sunFAQ/faq_nvram.html <http://obsolyte.com/sunFAQ/faq_nvram.html>`_
+(backed up here:
+`/website_archives/obsolyte_com/sunFAQ/faq_nvram.html </website_archives/obsolyte_com/sunFAQ/faq_nvram.html>`_
+).  The
 <mac_0>, <mac_1>, <mac_2> are usually set to 8, 0, 20 which are the assigned first half of the ethernet MAC addresses
 assigned to Sun Microsystems back in the day.  <mac_3>, <mac_4>, <mac_5> are the unique part of the MAC address for this
 machine.  It's usually the same as the last three bytes of the HOST ID of the machine, which are put in for the
