@@ -210,6 +210,7 @@ POSTS = (
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
+    ("projects/*.rst", "projects", "project.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -931,7 +932,8 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+#UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
@@ -1010,7 +1012,7 @@ GLOBAL_CONTEXT = {}
 GLOBAL_CONTEXT_FILLER = []
 
 ### Project Pages Config ###
-PAGES = (
-    ( "projects/*.rst", "projects", "project.tmpl"),
-)
+#PAGES = (
+#    ( "projects/*.rst", "projects", "project.tmpl"),
+#)
 PROJECT_PATH = 'projects'

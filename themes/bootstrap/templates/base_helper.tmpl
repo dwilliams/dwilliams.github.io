@@ -1,6 +1,5 @@
 ## -*- coding: utf-8 -*-
 
-<%namespace name="notes" file="annotation_helper.tmpl" import="*" />
 <%def name="html_headstart()">
 <!DOCTYPE html>
 <html
@@ -84,11 +83,8 @@ lang="${lang}">
             <script src="/assets/js/bootstrap.min.js"></script>
             <script src="/assets/js/moment-with-locales.min.js"></script>
             <script src="/assets/js/fancydates.js"></script>
+            <script src="/assets/js/baguetteBox.min.js"></script>
         %endif
-        <script src="/assets/js/jquery.colorbox-min.js"></script>
-    %endif
-    %if colorbox_locales[lang]:
-        <script src="/assets/js/colorbox-i18n/jquery.colorbox-${colorbox_locales[lang]}.js"></script>
     %endif
     ${social_buttons_code}
 </%def>
@@ -111,7 +107,7 @@ lang="${lang}">
         %endif
         <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-        <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
         %if has_custom_css:
             <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">
@@ -120,11 +116,6 @@ lang="${lang}">
     % if needs_ipython_css:
         <link href="/assets/css/ipython.min.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
-    % endif
-    % if annotations and post and not post.meta('noannotations'):
-        ${notes.css()}
-    % elif not annotations and post and post.meta('annotations'):
-        ${notes.css()}
     % endif
 </%def>
 
