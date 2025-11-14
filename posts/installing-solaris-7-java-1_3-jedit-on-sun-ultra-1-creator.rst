@@ -1,6 +1,6 @@
 .. title: Installing Solaris 7, Java 1.3, and jEdit on a Sun Ultra 1 Creator
 .. slug: installing-solaris-7-java-1_3-jedit-on-sun-ultra-1-creator
-.. date: 2025-11-012 15:49:33 UTC-06:00
+.. date: 2025-11-12 15:49:33 UTC-06:00
 .. tags: computers
 .. category: Old Computers
 .. link: 
