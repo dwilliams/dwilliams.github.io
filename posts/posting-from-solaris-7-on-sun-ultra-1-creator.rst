@@ -91,22 +91,22 @@ on, then get water or something while it's booting.
 
 Below are the NVRAM reprogramming commands to make the NVRAM usable::
 
-1 0 mkp
-<type> 1 mkp
-<mac_0> 2 mkp
-<mac_1> 3 mkp
-<mac_2> 4 mkp
-<mac_3> 5 mkp
-<mac_4> 6 mkp
-<mac_5> 7 mkp
-0 8 mkp
-0 9 mkp
-0 a mkp
-0 b mkp
-<host_0> c mkp
-<host_1> d mkp
-<host_2> e mkp
-0 f 0 do i idprom@ xor loop f mkp
+    1 0 mkp
+    <type> 1 mkp
+    <mac_0> 2 mkp
+    <mac_1> 3 mkp
+    <mac_2> 4 mkp
+    <mac_3> 5 mkp
+    <mac_4> 6 mkp
+    <mac_5> 7 mkp
+    0 8 mkp
+    0 9 mkp
+    0 a mkp
+    0 b mkp
+    <host_0> c mkp
+    <host_1> d mkp
+    <host_2> e mkp
+    0 f 0 do i idprom@ xor loop f mkp
 
 The <type> value sets the type code of the machine.  There's a list of these values available (LINK and copy here).  The
 <mac_0>, <mac_1>, <mac_2> are usually set to 8, 0, 20 which are the assigned first half of the ethernet MAC addresses
@@ -114,22 +114,22 @@ assigned to Sun Microsystems back in the day.  <mac_3>, <mac_4>, <mac_5> are the
 machine.  It's usually the same as the last three bytes of the HOST ID of the machine, which are put in for the
 <host_0>, <host_1>, <host_2> values.  Below are the commands again with the values for my Ultra1 replaced::
 
-1 0 mkp
-80 1 mkp
-8 2 mkp
-0 3 mkp
-20 4 mkp
-8d 5 mkp
-2c 6 mkp
-99 7 mkp
-0 8 mkp
-0 9 mkp
-0 a mkp
-0 b mkp
-8d c mkp
-2c d mkp
-99 e mkp
-0 f 0 do i idprom@ xor loop f mkp
+    1 0 mkp
+    80 1 mkp
+    8 2 mkp
+    0 3 mkp
+    20 4 mkp
+    8d 5 mkp
+    2c 6 mkp
+    99 7 mkp
+    0 8 mkp
+    0 9 mkp
+    0 a mkp
+    0 b mkp
+    8d c mkp
+    2c d mkp
+    99 e mkp
+    0 f 0 do i idprom@ xor loop f mkp
 
 .. PUT THE BOOT DISK COMMAND HERE
 
