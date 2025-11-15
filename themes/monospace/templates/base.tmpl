@@ -8,12 +8,12 @@ ${base.html_headstart()}
 ${template_hooks['extra_head']()}
 </head>
 <body class="home blog">
-    <div id="wrap" style="width:850px">
-        <div id="container" style="width:560px">
+    <div id="wrap" style="width:1080px">
+        <div id="container" style="width:760px">
             ${template_hooks['page_header']()}
             <%block name="content"></%block>
         </div>
-        <div id="sidebar">
+        <div id="sidebar" style="width:280px">
             <!--Sidebar content-->
             <h1 id="blog-title">
                 <a href="${abs_link('/')}" title="${blog_title}">${blog_title}</a>
