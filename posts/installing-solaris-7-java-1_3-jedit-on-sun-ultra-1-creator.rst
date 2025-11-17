@@ -19,7 +19,10 @@ on Solaris 7 without recompiling), and installing jEdit 3.2.2.
 
 .. thumbnail:: ../../galleries/OleRadioSwitch/amp-and-switch-brd.png
 
-.. Talk about logging in for the first time
+.. Talk about logging in for the first time and a quick bit of difference between OpenWindows and Common Desktop
+.. Environment.
+
+.. ADD PICTURES OF THE TWO DESKTOP ENVIRONMENTS DEFAULT VIEWS
 
 .. Talk about installing Java JDK 1.3 SPARC version.  Mention that none of the 64-bit version are compiled for Solaris
 ..    7, they all need Solaris (8?) 9 or newer, even Java JDK 1.4.

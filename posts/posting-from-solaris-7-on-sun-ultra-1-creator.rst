@@ -108,15 +108,16 @@ Below are the NVRAM reprogramming commands to make the NVRAM usable::
     <host_2> e mkp
     0 f 0 do i idprom@ xor loop f mkp
 
-The <type> value sets the type code of the machine.  There's a list of these values available at 
+The ``<type>`` value sets the type code of the machine.  There's a list of these values available at
 `http://obsolyte.com/sunFAQ/faq_nvram.html <http://obsolyte.com/sunFAQ/faq_nvram.html>`_
 (backed up here:
 `/website_archives/obsolyte_com/sunFAQ/faq_nvram.html </website_archives/obsolyte_com/sunFAQ/faq_nvram.html>`_
 ).  The
-<mac_0>, <mac_1>, <mac_2> are usually set to 8, 0, 20 which are the assigned first half of the ethernet MAC addresses
-assigned to Sun Microsystems back in the day.  <mac_3>, <mac_4>, <mac_5> are the unique part of the MAC address for this
-machine.  It's usually the same as the last three bytes of the HOST ID of the machine, which are put in for the
-<host_0>, <host_1>, <host_2> values.  Below are the commands again with the values for my Ultra1 replaced::
+``<mac_0>``, ``<mac_1>``, and ``<mac_2>`` are usually set to ``8``, ``0``, and ``20`` which are the assigned first half
+of the ethernet MAC addresses for Sun Microsystems back in the day.  ``<mac_3>``, ``<mac_4>``, and ``<mac_5>`` are the
+unique part of the MAC address for this machine.  It's usually the same as the last three bytes of the HOST ID of the
+machine, which are put in for the ``<host_0>``, ``<host_1>``, and ``<host_2>`` values.  Below are the commands again
+with the values for my Ultra1 replaced::
 
     1 0 mkp
     80 1 mkp
@@ -136,6 +137,16 @@ machine.  It's usually the same as the last three bytes of the HOST ID of the ma
     0 f 0 do i idprom@ xor loop f mkp
 
 .. PUT THE BOOT DISK COMMAND HERE
+
+Once the NVRAM is reconfigured, the default will still be to boot into diagnostic mode.  The default boot device for
+diagnostic mode is the on-board network device.  It'll try to DHCP, then if there's the right directive, load a kernel
+from a TFTP server and boot from there.  I don't want this as I want to boot from the disk.  Either waiting for the net
+boot to fail, or typing `STOP + A` on the Sun keyboard and issuing the following commands will set the machine to boot
+from disk in both normal mode and diagnostic mode (the last command is optional to disable diagnostic mode)::
+
+    setenv boot-device disk
+    setenv diag-device disk
+    setenv diag-switch false
 
 .. PUT PICTURES OF THE NVRAM MOD HERE
 
@@ -169,20 +180,21 @@ NOTE: During the way too long writing of this post, Rabbit Hole Computing releas
 As I've mentioned before, I'm running Solaris 7 on this Ultra 1.  I'm primarily planning on writing, which between the
 restructured text and markdown files for this blogging system and LaTeX files for bigger projects, all that's really
 needed is a good syntax-highlighting text editor.  I've been using one off and on for years that runs in Java and
-doesn't take much in the way of resources: jEdit (LINK HERE).  I figured that it would be perfect for a Sun workstation
-as Sun created Java in the first place.  Getting it to run, however, was a bit of a saga.  Also, while installing
-Solaris 7 on the harddrive went smoothly, installing Solaris 7 on the ZuluSCSI-Wide did not.
+doesn't take much in the way of resources: `jEdit (https://www.jedit.org/) <https://www.jedit.org/>`_.  I figured that
+it would be perfect for a Sun workstation as Sun created Java in the first place.  Getting it to run, however, was a bit
+of a saga.  Also, while installing Solaris 7 on the harddrive went smoothly, installing Solaris 7 on the ZuluSCSI-Wide
+did not.
 
 This is getting a bit long, so I'll chronicle the installation of Solaris 7, Java 1.3, and jEdit in the next post.  I'll
-then go through setting up Tribblix (LINK HERE), the NFS server, rlogin / rsh, and mounting the NFS share on Solaris 7.
-It works, and I'm finishing this article on it now.
+then go through setting up `Tribblix (http://www.tribblix.org/) <http://www.tribblix.org/>`_, the NFS server,
+rlogin / rsh, and mounting the NFS share on Solaris 7.  It works, and I'm finishing this article on it now.
 
 .. Link some docs here such as the service manual, NVRAM docs, Solaris 7 docs, etc.  Make sure there are "offline" saved
 .. versions too, even if they're not linked here.
 
 Below are some of the docs used for this effort (original link and a backup copy):
 
- * Sun Microsystems Ultra 1 Service Manual: LINK and LINK
+* Sun Microsystems Ultra 1 Service Manual: LINK and LINK
 
 .. Make sure to get some pictures of the system, both open and in-situ.
 
