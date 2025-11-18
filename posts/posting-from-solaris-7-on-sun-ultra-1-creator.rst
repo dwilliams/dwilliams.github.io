@@ -87,8 +87,6 @@ prompt.  I left mine in diagnostic mode, but I did set the system to boot from t
 modes so it will boot the OS if nothing is wrong.  I don't mind the long boot time for the diagnostics.  I just power
 on, then get water or something while it's booting.
 
-.. PUT THE NVRAM RESET COMMANDS HERE
-
 Below are the NVRAM reprogramming commands to make the NVRAM usable::
 
     1 0 mkp
@@ -173,7 +171,14 @@ using NFS shares and I'm keeping the diagnostics mode on startup, performance sh
 NOTE: During the way too long writing of this post, Rabbit Hole Computing release a version of the ZuluSCSI-Wide with an
 80-pin SCA connector directly on the board.  I've switched to that unit, but all of the other info is the same.
 
-.. PUT PICTURES OF THE HDD AND OF THE ZULUSCSI AND ADAPTER, AND THEN THE ZULUSCSI-WIDE
+.. ORIGINAL HDDs
+
+.. thumbnail:: ../../galleries/Ultra1/zuluscsi_boards_in_packaging.jpg
+
+.. NON-WIDE ZULUSCSI
+
+.. thumbnail:: ../../galleries/Ultra1/zuluscsi-wide_in_ultra1_hdd_cage.jpg
+.. thumbnail:: ../../galleries/Ultra1/zuluscsi-wide_in_ultra1_hdd_cage_top.jpg
 
 .. Talk about installing Java newer than 1.1.7 and jEdit
 
@@ -198,7 +203,6 @@ Below are some of the docs used for this effort (original link and a backup copy
 
 .. Make sure to get some pictures of the system, both open and in-situ.
 
-Here's some pictures of the computer:
+Here's some more pictures of the computer:
 
-.. thumbnail:: ../../galleries/OleRadioSwitch/amp-and-switch-brd.png
-
+.. thumbnail:: ../../galleries/Ultra1/ultra1_top_view_running_configuration.jpg
